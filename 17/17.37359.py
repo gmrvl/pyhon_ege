@@ -6,6 +6,7 @@ max_0 = 0
 count = 0
 max_pair = 0
 
+
 for i in range(117):
     a.append(0)
     max_d.append(-10000)
