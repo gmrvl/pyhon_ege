@@ -9,6 +9,7 @@ for i in file:
         min_string = i
 print(min_string)
 min_string = sorted(min_string)
+print(min_string)
 min_string.pop(0)
 letter = 0
 count_l = 0
