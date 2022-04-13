@@ -13,7 +13,7 @@ while True:
     a = []  # массив делителей
     s = 0
     stop = int(math.sqrt(n))
-    for i in range(2, stop):
+    for i in range(2, stop+1):
         if n % i == 0:
             res = n // i
             a.append(res)
