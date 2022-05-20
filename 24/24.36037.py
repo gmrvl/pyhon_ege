@@ -1,7 +1,7 @@
 file = open('36037.txt').read()
 
-count = 0
-maxCount = 0
+count = 0  # количество символов в текущей строке
+maxCount = 0  # максимальное количество символов
 last = ''
 
 for i in file:
@@ -20,5 +20,3 @@ for i in file:
         count += 1
 
 print(maxCount)
-
-
