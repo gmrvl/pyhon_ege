@@ -23,5 +23,3 @@ for str in file:
             a[alp.find(i)] = range
             range += 1
 print(max_count)
-
-
